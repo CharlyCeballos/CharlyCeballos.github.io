@@ -1,0 +1,144 @@
+{
+  "basic_info": {
+    "name": "Carlos Ceballos",
+    "titles": [
+      "Back-end Developer",
+      "Front-end Developer",
+      "Mobile App Developer",
+      "Mid Developer"
+    ],
+    "social": [
+      {
+        "name": "discord",
+        "url": "https://discord.com/channels/@carlosceballos/",
+        "class": "fab fa-discord"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/carloz_ceballos/",
+        "class": "fab fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/CharlyCeballos/",
+        "class": "fab fa-github"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "60"
+      },
+      {
+        "name": "VueJS",
+        "class": "devicon-vuejs-plain",
+        "level": "85"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "Redis",
+        "class": "devicon-redis-plain",
+        "level": "80"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "80"
+      },
+      {
+        "name": "Laravel",
+        "class": "devicon-laravel-plain",
+        "level": "50"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "70"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "60"
+      },
+      {
+        "name": "PHP",
+        "class": "devicon-php-plain",
+        "level": "60"
+      },
+      {
+        "name": "C++",
+        "class": "devicon-cplusplus-plain"
+      },
+      {
+        "name": "Flutter",
+        "class": "devicon-flutter-plain"
+      },
+      {
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain"
+      },
+      {
+        "name": "Nodemon",
+        "class": "devicon-nodemon-plain"
+      },
+      {
+        "name": "NPM",
+        "class": "devicon-npm-original-wordmark"
+      },
+      {
+        "name": "Slack",
+        "class": "devicon-slack-plain"
+      },
+      {
+        "name": "Jira",
+        "class": "devicon-jira-plain"
+      },
+      {
+        "name": "Ubuntu",
+        "class": "devicon-ubuntu-plain"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain"
+      },
+      {
+        "name": "Composer",
+        "class": "devicon-composer-plain"
+      },
+      {
+        "name": "Debian",
+        "class": "devicon-debian-plain"
+      },
+      {
+        "name": "GitHub",
+        "class": "devicon-github-plain"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain"
+      },
+      {
+        "name": "Discord",
+        "class": "fab fa-discord"
+      }
+    ]
+  }
+}
