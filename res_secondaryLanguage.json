@@ -47,18 +47,26 @@
       ]
     },
     {
-      "title": "Remove background images",
+      "title": "Mexica gods",
       "startDate": "2024",
-      "description": "Removes background images just using Python.",
+      "description": "Interactive codex with information about the deities of Mexica cosmology.",
       "images": [
-        "images/portfolio/background/p1.jpg",
-        "images/portfolio/background/p2.png"
+        "images/portfolio/dioses-mexicas/p1.svg",
+        "images/portfolio/dioses-mexicas/p2.svg"
       ],
-      "url": "https://github.com/CharlyCeballos/python_remove_background",
+      "url": "https://github.com/CharlyCeballos/Dioses-Mexicas",
       "technologies": [
         {
-          "class": "devicon-python-plain",
-          "name": "Python"
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
         }
       ]
     }
@@ -66,7 +74,7 @@
   "experience": [
     {
       "company": "GoMeTrix",
-      "title": "Developer Mid",
+      "title": "Full Stack Developer",
       "years": "03.2021 - present",
       "mainTech": [
         "VUE",

@@ -5,28 +5,13 @@
       "Back-end Developer",
       "Front-end Developer",
       "Mobile App Developer",
-      "Mid Developer"
+      "Full Stack Developer"
     ],
     "social": [
-      {
-        "name": "discord",
-        "url": "https://discord.com/channels/@carlosceballos/",
-        "class": "fab fa-discord"
-      },
-      {
-        "name": "instagram",
-        "url": "https://www.instagram.com/carloz_ceballos/",
-        "class": "fab fa-instagram"
-      },
       {
         "name": "github",
         "url": "https://github.com/CharlyCeballos/",
         "class": "fab fa-github"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/in/charlyceballos/",
-        "class": "fab fa-linkedin"
       }
     ],
     "image": "myProfile.jpg"
