@@ -48,7 +48,7 @@
     },
     {
       "title": "Mexica gods",
-      "startDate": "2024",
+      "startDate": "2026",
       "description": "Interactive codex with information about the deities of Mexica cosmology.",
       "images": [
         "images/portfolio/dioses-mexicas/p1.svg",
@@ -76,10 +76,7 @@
       "company": "GoMeTrix",
       "title": "Full Stack Developer",
       "years": "03.2021 - present",
-      "mainTech": [
-        "VUE",
-        "Python"
-      ],
+      "mainTech": ["VUE", "Python"],
       "icon": "fab fa-vuejs experience-icon",
       "technologies": [
         "JavaScript",
@@ -97,10 +94,7 @@
       "company": "TeleUrban",
       "title": "Developer Jr",
       "years": "08.2019 - 02.2021",
-      "mainTech": [
-        "Laravel",
-        "PHP"
-      ],
+      "mainTech": ["Laravel", "PHP"],
       "icon": "fab fa-js experience-icon",
       "technologies": [
         "PHP",
@@ -118,12 +112,7 @@
       "years": "08.2018 - 03.2019",
       "mainTech": ["Office"],
       "icon": "fab fa-php experience-icon",
-      "technologies": [
-        "Photoshop",
-        "HTML",
-        "PHP",
-        "CCTV"
-      ]
+      "technologies": ["Photoshop", "HTML", "PHP", "CCTV"]
     }
   ]
 }

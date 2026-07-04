@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://charlyceballos.netlify.app/sitemap.xml

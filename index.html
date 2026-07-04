@@ -11,6 +11,10 @@
       name="description"
       content="Portafolio profesional de Carlos Ceballos, Desarrollador Full Stack especializado en Vue, Python, JavaScript y desarrollo de aplicaciones móviles."
     />
+    <meta name="author" content="Carlos Ceballos" />
+    <link rel="canonical" href="https://charlyceballos.netlify.app/" />
+
+    <!-- Open Graph -->
     <meta
       property="og:title"
       content="Carlos Ceballos | Desarrollador Full Stack"
@@ -19,8 +23,58 @@
       property="og:description"
       content="Portafolio profesional de Carlos Ceballos. Conoce mis proyectos, experiencia y habilidades."
     />
-    <meta property="og:image" content="/images/myProfile.jpg" />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://charlyceballos.netlify.app/" />
+    <meta
+      property="og:site_name"
+      content="Carlos Ceballos | Desarrollador Full Stack"
+    />
+    <meta property="og:locale" content="es_MX" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta
+      property="og:image"
+      content="https://charlyceballos.netlify.app/images/og-image.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    <meta
+      property="og:image:alt"
+      content="Carlos Ceballos, Desarrollador Full Stack — aplicaciones modernas, eficientes y seguras"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Carlos Ceballos | Desarrollador Full Stack"
+    />
+    <meta
+      name="twitter:description"
+      content="Portafolio profesional de Carlos Ceballos. Conoce mis proyectos, experiencia y habilidades."
+    />
+    <meta
+      name="twitter:image"
+      content="https://charlyceballos.netlify.app/images/og-image.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Carlos Ceballos, Desarrollador Full Stack — aplicaciones modernas, eficientes y seguras"
+    />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Carlos Ceballos",
+        "jobTitle": "Full Stack Developer",
+        "url": "https://charlyceballos.netlify.app/",
+        "image": "https://charlyceballos.netlify.app/images/myProfile.jpg",
+        "sameAs": ["https://github.com/CharlyCeballos/"],
+        "knowsAbout": ["Vue.js", "Python", "JavaScript", "Node.js", "PHP"]
+      }
+    </script>
 
     <!-- Icons & Fonts -->
     <link rel="icon" href="/favicon2.png" type="image/png" />
@@ -32,7 +86,10 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@2.17.0/devicon.min.css"
+      integrity="sha512-6/05LVs+grXBAu5XzdiMFB64yCVF9FL70zWrTKcaTEKygrO7fC5LqfL/SKPpuRpimL2aE0D7Hw/NoED+7+7/VQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link
       rel="stylesheet"
@@ -43,7 +100,7 @@
     />
 
     <!-- Stylesheets -->
-    <script type="module" crossorigin src="/assets/index-D5fNI6GQ.js"></script>
+    <script type="module" crossorigin src="/assets/index-ChvYS95B.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-BMq9cYxy.css">
   </head>
   <body class="dark-theme">
@@ -248,10 +305,8 @@
                 </div>
                 <div>
                   <span class="detail-label" id="label-email">Email</span>
-                  <a
-                    href="mailto:carlos.ceballos.dev@gmail.com"
-                    class="detail-value"
-                    >carlos.ceballos.dev@gmail.com</a
+                  <a href="#" class="detail-value" id="contact-email-link"
+                    >&nbsp;</a
                   >
                 </div>
               </div>
@@ -286,6 +341,7 @@
                   type="text"
                   id="form-name-input"
                   name="name"
+                  autocomplete="name"
                   required
                   placeholder="Tu nombre"
                 />
@@ -299,6 +355,7 @@
                   type="email"
                   id="form-email-input"
                   name="email"
+                  autocomplete="email"
                   required
                   placeholder="tu@email.com"
                 />

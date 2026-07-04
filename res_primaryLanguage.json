@@ -76,10 +76,7 @@
       "company": "GoMeTrix",
       "title": "Desarrollador Full Stack",
       "years": "03.2021 - actualidad",
-      "mainTech": [
-        "VUE",
-        "Python"
-      ],
+      "mainTech": ["VUE", "Python"],
       "icon": "fab fa-vuejs experience-icon",
       "technologies": [
         "JavaScript",
@@ -97,10 +94,7 @@
       "company": "TeleUrban",
       "title": "Desarrollador Jr",
       "years": "08.2019 - 02.2021",
-      "mainTech": [
-        "Laravel",
-        "PHP"
-      ],
+      "mainTech": ["Laravel", "PHP"],
       "icon": "fab fa-js experience-icon",
       "technologies": [
         "PHP",
@@ -118,12 +112,7 @@
       "years": "08.2018 - 03.2019",
       "mainTech": ["Office"],
       "icon": "fab fa-php experience-icon",
-      "technologies": [
-        "Photoshop",
-        "HTML",
-        "PHP",
-        "CCTV"
-      ]
+      "technologies": ["Photoshop", "HTML", "PHP", "CCTV"]
     }
   ]
 }
