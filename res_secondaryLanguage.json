@@ -54,7 +54,7 @@
         "images/portfolio/dioses-mexicas/p1.svg",
         "images/portfolio/dioses-mexicas/p2.svg"
       ],
-      "url": "https://github.com/CharlyCeballos/Dioses-Mexicas",
+      "url": "https://dioses-mexicas.netlify.app/",
       "technologies": [
         {
           "class": "devicon-javascript-plain",
