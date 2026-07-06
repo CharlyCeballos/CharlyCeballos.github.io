@@ -11,22 +11,26 @@
   },
   "projects": [
     {
-      "title": "Aplicaciones con PyQt6",
-      "startDate": "2024",
-      "description": "Excelente forma de aprender a desarrollar aplicaciones de escritorio con Python y con la facilidad de PyQt(6)",
+      "title": "Inventario de galletas",
+      "startDate": "2026",
+      "description": "Aplicación web para gestionar el inventario de galletas: registro, existencias y control de productos.",
       "images": [
-        "images/portfolio/pyqt6/p1.jpg",
-        "images/portfolio/pyqt6/p2.jpg"
+        "images/portfolio/inventario-galletas/p1.svg",
+        "images/portfolio/inventario-galletas/p2.svg"
       ],
-      "url": "https://github.com/CharlyCeballos/Creating-your-first-app-with-PyQt6",
+      "url": "https://inventario-galletas.netlify.app/",
       "technologies": [
         {
-          "class": "devicon-python-plain",
-          "name": "Python"
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
         },
         {
-          "class": "devicon-qt-plain",
-          "name": "PyQt6"
+          "class": "devicon-css3-plain",
+          "name": "CSS"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML"
         }
       ]
     },
