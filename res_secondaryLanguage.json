@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋 I'm Carlos Ceballos. I am someone who enjoys meeting new people and acquiring new knowledge :) I try to learn new things and practice the already learned like Vue, JavaScript and Python. This is just a small introduction since it would be better to know me to see that I am cool. If you like my portfolio you can write to me so I can share the code with you ;) If you only like my repositories you can give them ⭐ or simply fork them. 🩵 Thank you 🩵",
+    "description": "I'm Carlos Ceballos 👋. I enjoy meeting new people and gaining new knowledge. I like to learn new things and practice the ones I already master, such as Vue, JavaScript and Python. This is just a short introduction; the best way to see that I'm cool is to get to know me. If you like my portfolio, write to me and I'll share the code with you ;) And if you only like my repositories, you can give them a ⭐ or simply fork them. 🩵 Thank you 🩵",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -80,6 +80,7 @@
       "company": "GoMeTrix",
       "title": "Full Stack Developer",
       "years": "03.2021 - present",
+      "description": "I build back-end focused software with a sysadmin role and lead the back-end team in my charge.",
       "mainTech": ["VUE", "Python"],
       "icon": "fab fa-vuejs experience-icon",
       "technologies": [
@@ -98,6 +99,7 @@
       "company": "TeleUrban",
       "title": "Developer Jr",
       "years": "08.2019 - 02.2021",
+      "description": "Developed and maintained web applications with Laravel and PHP, integrating MySQL databases.",
       "mainTech": ["Laravel", "PHP"],
       "icon": "fab fa-js experience-icon",
       "technologies": [
@@ -114,9 +116,11 @@
       "company": "PreMediTest",
       "title": "IT leader",
       "years": "08.2018 - 03.2019",
+      "description": "Responsible for the IT area: technical support, website and management of the CCTV surveillance system.",
       "mainTech": ["Office"],
       "icon": "fab fa-php experience-icon",
       "technologies": ["Photoshop", "HTML", "PHP", "CCTV"]
     }
   ]
 }
+

@@ -1,0 +1,11 @@
+<svg width="454" height="316" viewBox="0 0 454 316" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Monokai Pro accents: pink #ff6188 to purple #ab9df2 (matches site palette) -->
+    <linearGradient id="cc-logo-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff6188" />
+      <stop offset="100%" stop-color="#ab9df2" />
+    </linearGradient>
+  </defs>
+  <path d="M268.94 45.5C240.412 17.3646 201.234 0 158 0C70.739 0 0 70.739 0 158C0 245.261 70.739 316 158 316C201.234 316 240.412 298.635 268.94 270.5L219.071 220.5C202.853 236.864 180.36 247 155.5 247C106.071 247 66 206.929 66 157.5C66 108.071 106.071 68 155.5 68C180.36 68 202.853 78.1357 219.071 94.5L268.94 45.5Z" fill="url(#cc-logo-gradient)" />
+  <path d="M384.586 25.2691C385.735 22.106 388.741 20 392.106 20H454L347.918 310.742C346.766 313.899 343.764 316 340.403 316H279L384.586 25.2691Z" fill="url(#cc-logo-gradient)" />
+</svg>
