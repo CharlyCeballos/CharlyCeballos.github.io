@@ -39,8 +39,8 @@
       "startDate": "2024",
       "description": "Crea un backdoor de comunicación cliente-servidor para ejecutar comandos",
       "images": [
-        "images/portfolio/backdoor/p1.png",
-        "images/portfolio/backdoor/p2.png"
+        "images/portfolio/backdoor/p1.jpg",
+        "images/portfolio/backdoor/p2.jpg"
       ],
       "url": "https://github.com/CharlyCeballos/backdoor.py",
       "technologies": [

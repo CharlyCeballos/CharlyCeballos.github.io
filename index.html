@@ -37,30 +37,13 @@
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:type" content="image/png" />
     <meta
       property="og:image:alt"
       content="Carlos Ceballos, Desarrollador Full Stack — aplicaciones modernas, eficientes y seguras"
     />
 
-    <!-- Twitter Card -->
+    <!-- Twitter Card (title/description/image fall back to OG tags) -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Carlos Ceballos | Desarrollador Full Stack"
-    />
-    <meta
-      name="twitter:description"
-      content="Portafolio profesional de Carlos Ceballos. Conoce mis proyectos, experiencia y habilidades."
-    />
-    <meta
-      name="twitter:image"
-      content="https://charlyceballos.netlify.app/images/og-image.png"
-    />
-    <meta
-      name="twitter:image:alt"
-      content="Carlos Ceballos, Desarrollador Full Stack — aplicaciones modernas, eficientes y seguras"
-    />
 
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -80,30 +63,21 @@
     <link rel="icon" href="/favicon2.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <!-- Only the weights actually used by index.css are requested -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap"
       rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@2.17.0/devicon.min.css"
-      integrity="sha512-6/05LVs+grXBAu5XzdiMFB64yCVF9FL70zWrTKcaTEKygrO7fC5LqfL/SKPpuRpimL2aE0D7Hw/NoED+7+7/VQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
 
     <!-- Stylesheets -->
-    <script type="module" crossorigin src="/assets/index-BnW3RY5g.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-C_kd6uxW.css">
+    <script type="module" crossorigin src="/assets/index-fovBbeGQ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BgRTxFDT.css">
   </head>
   <body class="dark-theme">
+    <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
     <!-- Ambient background glow elements -->
     <div class="bg-glow blob-1" aria-hidden="true"></div>
     <div class="bg-glow blob-2" aria-hidden="true"></div>
@@ -182,31 +156,31 @@
       </nav>
     </div>
 
-    <main>
+    <main id="main-content">
       <!-- Hero Section -->
       <section id="hero" class="hero-section">
         <div class="hero-content">
-          <span class="hero-tagline animate-fade-in" id="hero-tagline-text"
+          <span class="hero-tagline" id="hero-tagline-text"
             >Hola, mi nombre es</span
           >
-          <h1 class="hero-title animate-title" id="developer-name">
+          <h1 class="hero-title" id="developer-name">
             Carlos Ceballos
           </h1>
 
           <!-- Dynamic Typewriter Title -->
-          <div class="typewriter-container animate-fade-in">
+          <div class="typewriter-container">
             <span class="typewriter-prefix">&lt;</span>
             <span id="typewriter-text" class="typewriter-text"></span>
             <span class="typewriter-suffix"> /&gt;</span>
           </div>
 
-          <p class="hero-subtitle animate-fade-in" id="hero-desc-text">
+          <p class="hero-subtitle" id="hero-desc-text">
             Desarrollador Full Stack enfocado en crear aplicaciones modernas,
             eficientes y seguras.
           </p>
 
           <!-- Hero Actions -->
-          <div class="hero-actions animate-fade-in">
+          <div class="hero-actions">
             <a href="#projects" class="btn-primary" id="hero-btn-projects">
               <span>Ver proyectos</span>
               <i class="fa-solid fa-arrow-right"></i>
@@ -217,12 +191,12 @@
           </div>
 
           <!-- Social Links Sticky / Bottom -->
-          <div class="hero-socials animate-fade-in" id="social-links-container">
+          <div class="hero-socials" id="social-links-container">
             <!-- Dynamically populated -->
           </div>
         </div>
 
-        <div class="scroll-indicator animate-bounce">
+        <div class="scroll-indicator">
           <a href="#about" aria-label="Desplazarse a la sección sobre mí">
             <span class="mouse-icon">
               <span class="scroll-wheel"></span>
@@ -241,6 +215,10 @@
                 src="/images/myProfile.jpg"
                 alt="Carlos Ceballos"
                 id="profile-img"
+                width="280"
+                height="280"
+                loading="lazy"
+                decoding="async"
               />
               <div class="about-image-border"></div>
             </div>
@@ -409,6 +387,8 @@
             class="logo-svg"
             width="40"
             height="28"
+            loading="lazy"
+            decoding="async"
           />
           <p id="footer-tagline">Carlos Ceballos — Desarrollador Full Stack</p>
         </div>
@@ -423,6 +403,26 @@
         </div>
       </div>
     </footer>
+
+    <!--
+      Icon fonts live at the end of <body> on purpose: they are ~200 kB of CSS
+      whose glyphs are all below the fold, so keeping them out of <head> stops
+      them from blocking the first paint of the hero.
+    -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@2.17.0/devicon.min.css"
+      integrity="sha512-6/05LVs+grXBAu5XzdiMFB64yCVF9FL70zWrTKcaTEKygrO7fC5LqfL/SKPpuRpimL2aE0D7Hw/NoED+7+7/VQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Script entry -->
   </body>
